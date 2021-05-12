@@ -9,7 +9,7 @@ my $PORTS_TCP="21,22,50000:50500";
 ### Reset all rules ###
 `$IPTABLES -F`;
 `$IPTABLES -X`;
-`$IPTABLES –t nat –F`;
+`$IPTABLES -t nat -F`;
 
 
 ### INPUT ### 
