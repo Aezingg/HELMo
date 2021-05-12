@@ -3,8 +3,8 @@
 use strict;
 my $IPTABLES="/usr/sbin/iptables";
 my $INTERNAL_NETWORK="192.168.144.0/22";
-my $DEVICE_NETWORK="enp036";
-my $PORTS_TCP="21,22,50000:50500";
+my $DEVICE_NETWORK="enp0s3";
+my $PORTS_TCP="21,22,5432,50000:50500";
 
 ### Reset all rules ###
 `$IPTABLES -F`;
