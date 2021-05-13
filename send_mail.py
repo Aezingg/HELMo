@@ -13,7 +13,7 @@ if sys.argv[1] == "fail":
 
 elif sys.argv[1] == "double":
     subject = "Tentative de DoS"
-    message = f"Le LogHost a report une potentielle tentaitve DoS\nDate : {time.strftime('%a, %d %b %y %H:%M')}\nUser : {sys.argv[2]}\n"
+    message = f"Le LogHost a report une potentielle tentative DoS\nDate : {time.strftime('%a, %d %b %y %H:%M')}\nUser : {sys.argv[2]}\n"
 
 elif sys.argv[1] == "sudo":
     subject = "Faille SUDO"
